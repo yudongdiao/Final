@@ -11,21 +11,21 @@ Background
 Introduction
 In this project what we mainly did is changing the UI and adding a parameter, LUX(unit for light), to test whether the environment is good for sleeping. There are four results, very good, good, bad, very bad.
 
-APP UI
+#APP UI
 ![alt text](https://github.com/yudongdiao/Final/blob/master/Picture1.png?raw=true)
 ![alt text](https://github.com/yudongdiao/Final/blob/master/Picture2.png?raw=true)
 
 
-Data Collections:
+#Data Collections:
 	Audio:
-•	We collected data at Noisy environment such as, live show, gym, dorm with loud music playing
-•	Fair environment: classroom with professor talking, group study room at Du Bois library
-•	Quiet(Good): dorm with no music playing, quiet study floor.
+-	We collected data at Noisy environment such as, live show, gym, dorm with loud music playing
+-	Fair environment: classroom with professor talking, group study room at Du Bois library
+-	Quiet(Good): dorm with no music playing, quiet study floor.
 
-Light:
-•	Because measurement of light is just one scalar, we don’t need to collect light data. All we need to do is to consider under what LUX value is Bad, Fair and Good for sleeping. 
+#Light:
+-	Because measurement of light is just one scalar, we don’t need to collect light data. All we need to do is to consider under what LUX value is Bad, Fair and Good for sleeping. 
 
-Algorithm criteria 
+#Algorithm criteria:
 result=audio factor*300+LUX data
 Audio factor
 Range: 0~3
@@ -35,6 +35,6 @@ If(result between 800 and 1600){good}
 If(result between 1600 and 2400){bad}
 Else very bad
 
-Implementation for LUX data:
+#Implementation for LUX data:
 We added a light sensor. Once the data of sensor changed, we send  the lux data from MainActivity.java to Constant and then receive it using audiofragment.java.
 
