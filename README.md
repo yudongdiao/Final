@@ -12,6 +12,8 @@ Introduction
 In this project what we mainly did is changing the UI and adding a parameter, LUX(unit for light), to test whether the environment is good for sleeping. There are four results, very good, good, bad, very bad.
 
 APP UI
+![alt text](https://github.com/yudongdiao/Final/blob/master/Picture1.png?raw=true)
+![alt text](https://github.com/yudongdiao/Final/blob/master/Picture2.png?raw=true)
 
 
 Data Collections:
